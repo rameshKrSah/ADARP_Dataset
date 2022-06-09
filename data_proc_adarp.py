@@ -100,22 +100,48 @@ def get_tag_timestamps(tag_file):
 
     tag_timestamps = []
 
-    count = 0
-    for line in open(tag_file): count += 1
+    # count = 0
+    # for line in open(tag_file): count += 1
 
-    if count < 2:
-        return tag_timestamps
+    # if count < 2:
+    #     return tag_timestamps
 
     # print(f"{count - 1} tags in {tag_file}")
     with open(tag_file, "r") as read_file:
         csv_reader = csv.reader(read_file)
         # skip the header line
-        next(csv_reader)
+        # next(csv_reader)
         for row in csv_reader:
+            # print(row)
             unix_time = float(row[0])
             tag_timestamps.append(unix_time)
 
     return tag_timestamps
+
+
+def verify_tags(data_folder):
+    total_timestamps = 0
+    participants_tags = {}
+
+    for p in participants_folder_names:
+        participants_folder_path = data_folder + p + "/"
+        part_subfolders = os.listdir(participants_folder_path)
+        # print(p)
+
+        temp = 0
+        # for each sub-folder in the participants folder
+        for sub in part_subfolders:
+            path = participants_folder_path + sub
+
+            # get the tag events in this folder
+            tag_timestamps = get_tag_timestamps(path + "/tags.csv")
+
+            temp += len(tag_timestamps)
+            total_timestamps += len(tag_timestamps)
+
+        participants_tags[p] = temp
+        # break
+    return participants_tags, total_timestamps
 
 
 def extract_segments_around_tags(data, tags, segment_size):
