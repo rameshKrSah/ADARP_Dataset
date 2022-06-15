@@ -4,6 +4,14 @@ ADARP dataset was collected from participants suffering from alcohol use disorde
 
 This dataset is the outcome of a proof-of-concept pilot study to establish the feasibility of using a wearable sensor device to provide continuous monitoring of physiological stress in an ambulatory setting.  Based on a large literature that demonstrates alcohol relapse is associated with negative affect, alcohol-related cravings, and physiological stress, the proposed study included three components: 1) a 14-day daily diary study using ecological momentary assessments (EMA) of self-reported emotions, cravings, and stress via an internet survey, prompted four times daily; 2) a wearable Emaptica E4 wristband device that captures in real time continuous, physiological markers of stress, including heart rate, heart rate variability, and skin conductance to be worn by participants concurrently with the EMA component; and 3) a structured qualitative interview to be conducted following the EMA and continuous physiological markers components to assess participants’ experiences with the investigation and to validate self-reported and physiological markers of stress. With the proposed study, we aimed to address three research objectives. Aim 1 examines the fluctuations and associations among the self-reported emotions, alcohol-related cravings, and stress assessed in the EMA component. Analysis for Aim 1 centered on concurrent and lagged associations among negative affect, cravings, and stress. Aim 2 uses the continuous monitoring data acquired via the wearable device to visualize and describe fluctuations among the physiological measures of stress. Analysis for this aim focused on determining the degree of synchrony among the different physiological indicators. Aim 3 combines the EMA and continuous monitoring components in order to determine if self-reported changes in alcohol-related cravings can be predicted from physiological measures of stress.
 
-The dataset can be downloaded from here:
+The dataset can be downloaded from here: [Link](https://zenodo.org/record/6640290)
 
-Please cite the following research papers when you use this dataset.
+Please cite the following research papers when you use this dataset:
+
+1. Ramesh Kumar Sah, Michael McDonell, Patricia Pendry, Sara Parent, Hassan Ghasemzadeh, & Michael J Cleveland. (2022). Alcohol and Drug Abuse Research Program (ADARP) Dataset (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.664029
+
+2. Ramesh Kumar Sah, Hassan Ghasemzadeh, Assal Habibi, Michael McDonell, Patricia Pendry, and Michael Cleveland. 2020. Poster: Mobile Health for Alcohol Recovery and Relapse Prevention. In 2020 IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE). IEEE Press, 18–19. https://doi.org/10.1145/3384420.3431779
+
+3. Alinia P, Sah RK, McDonell M, Pendry P, Parent S, Ghasemzadeh H, Cleveland MJ. Associations Between Physiological Signals Captured Using Wearable Sensors and Self-reported Outcomes Among Adults in Alcohol Use Disorder Recovery: Development and Usability Study. JMIR Form Res. 2021 Jul 21;5(7):e27891. DOI: 10.2196/27891. PMID: 34287205; PMCID: PMC8339978.
+
+If you have any questions or suggestions, please feel free to reach Ramesh Sah at ramesh.sah@wsu.edu
